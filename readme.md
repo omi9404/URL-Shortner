@@ -21,7 +21,10 @@ Requires PHP ≥ 5.6.0 or higher.
 4.Use `urlshortener.sql`
 6.Make database 'urlshortener'
 5.Database Username : root
-  Database Password : '' 
+  Database Password : ''
+
+## Commands
+  
 6.Open command prompt and go to project root folder which u have created.
 7.Run command : php artisan serve
 8.A message will appear 'Laravel development server started: <http://127.0.0.1:8000>'
