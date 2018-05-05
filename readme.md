@@ -31,7 +31,7 @@ Requires PHP ≥ 5.6.0 or higher.
 9.Hit the url 'http://127.0.0.1:8000' (Note:make sure your server is on as well as phpmyadmin.)
 10.Run command : php artisan make:auth
 11.Run command : php arisan migrate (For creating table by migration command.)
-12.You are ready to go
+12.You are ready to go.
 
 
 

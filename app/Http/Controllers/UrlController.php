@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\url;
+use App\Url;
 use Illuminate\Http\Request;
 
 class UrlController extends Controller
@@ -24,7 +24,7 @@ class UrlController extends Controller
      */
     public function create()
     {
-        echo 1;exit;
+        //
     }
 
     /**
@@ -35,7 +35,14 @@ class UrlController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+         $url = new Url;
+        $url->url = $request->input('url');
+        $url->shortenurl = 'google.com';
+        $url->hits = '1';
+        $url->save();exit;
+
+    //return Redirect::back();
     }
 
     /**

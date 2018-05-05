@@ -4,7 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class url extends Model
+class Url extends Model
 {
-    //
+    protected $table = 'url_data';
+    protected $fillable = [
+        'url', 'shortenurl', 'hits',
+    ];
 }
