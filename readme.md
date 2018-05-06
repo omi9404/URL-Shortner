@@ -17,23 +17,43 @@ Requires PHP ≥ 5.6.0 or higher.
 
 ## Installation
 
-3.Create any folder and open command prompt terminal.
-4.cd folder_name.
-5.git clone git@github.com:omi9404/codaemonTestOm.git
-4.Use `urlshortener.sql`
+Create any folder and open command prompt terminal.
+
+cd folder_name.
+
+git clone git@github.com:omi9404/codaemonTestOm.git
+
+##Go to downloaded project folder.
+cd codaemonTestOm 
+
+composer install
+
+##Generate autoload files
+composer dump-autoload
+
+##Database Setup
 6.Make database 'urlshortener'
 5.Database Username : root
   Database Password : ''
 
-## Commands
+## Installation continue..
+##Make laravel baseic table and view files
+php artisan make:auth
+
+##Generate application needed tables
+
+php artisan migrate
+
+##Start Server
+php artisan serve
+
+
+
+## You are ready to go
   
-6.Open command prompt and go to project root folder which u have created.
-7.Run command : php artisan serve
-8.A message will appear 'Laravel development server started: <http://127.0.0.1:8000>'
-9.Hit the url 'http://127.0.0.1:8000' (Note:make sure your server is on as well as phpmyadmin.)
-10.Run command : php artisan make:auth
-11.Run command : php arisan migrate (For creating table by migration command.)
-12.You are ready to go.
+6.A message will appear 'Laravel development server started: <http://127.0.0.1:8000>'
+7.Hit the url 'http://127.0.0.1:8000' (Note:make sure your server is on as well as phpmyadmin.)
+
 
 
 
