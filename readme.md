@@ -17,7 +17,9 @@ Requires PHP ≥ 5.6.0 or higher.
 
 ## Installation
 
-3.Download the source code as located within this repository, and upload it to your web server.
+3.Create any folder and open command prompt terminal.
+4.cd folder_name.
+5.git clone git@github.com:omi9404/codaemonTestOm.git
 4.Use `urlshortener.sql`
 6.Make database 'urlshortener'
 5.Database Username : root
