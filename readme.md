@@ -49,11 +49,6 @@ Create any folder and open command prompt terminal.
 
   Database Password : ''
 
-## Installation continue..
-
-##Make laravel baseic table and view files
-
-=> php artisan make:auth
 
 ##Generate application needed tables
 

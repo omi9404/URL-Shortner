@@ -85,6 +85,12 @@
                                     <td>{{$url->hits}}</td>
                                 </tr>
                             @endforeach
+                            @else
+                            <tr>
+                                <td></td>
+                                <td colspan="2">No data found</td>
+                                <td></td>
+                            </tr>
                             @endif
                         </tbody>
                     </table>
