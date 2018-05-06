@@ -1,11 +1,12 @@
-# Codaemonsoftwares URL shortener
+# Codaemon Softwares URL Shortener Test By Omprakash Lilhare
 
 Requires PHP ≥ 5.6.0 or higher.
 
 ## About Application
 
 1. This application is developed on laravel framework.
-2. Laravel is a web application framework with expressive, elegant syntax. We believe development must be an 	 enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+2. Laravel is a web application framework with expressive, elegant syntax. We believe development must be an 	 enjoyable and creative experience to be truly fulfilling. 
+Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
 	1.Simple, fast routing engine.
 	2.Powerful dependency injection container.
