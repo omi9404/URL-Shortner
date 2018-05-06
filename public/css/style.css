@@ -1,3 +1,17 @@
-#messageContainer{
+.display-none{
 	display:none;
+}
+
+.alert-success{
+	height: 50px;
+}
+
+.card-header{text-align: center;}
+.margin-top-3-per{margin-top: 3%;}
+
+table tr,td{
+	text-align: center;
+}
+.text-align-center{
+	text-align: center;
 }
