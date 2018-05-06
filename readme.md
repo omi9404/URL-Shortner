@@ -21,25 +21,25 @@ Laravel attempts to take the pain out of development by easing common tasks used
 	6.Robust background job processing.
 
 	7.Real-time event broadcasting.
-	
 
-## Installation
+
+## Installation (Please note '=>' indicates terminal commands to be run.)
 
 Create any folder and open command prompt terminal.
 
-cd folder_name.
+=> cd folder_name.
 
-git clone git@github.com:omi9404/codaemonTestOm.git
+=> git clone git@github.com:omi9404/codaemonTestOm.git
 
 ##Go to downloaded project folder.
 
-cd codaemonTestOm 
+=> cd codaemonTestOm 
 
-composer install
+=> composer install
 
 ##Generate autoload files
 
-composer dump-autoload
+=> composer dump-autoload
 
 ##Database Setup
 
@@ -53,15 +53,15 @@ composer dump-autoload
 
 ##Make laravel baseic table and view files
 
-php artisan make:auth
+=> php artisan make:auth
 
 ##Generate application needed tables
 
-php artisan migrate
+=> php artisan migrate
 
 ##Start Server
 
-php artisan serve
+=> php artisan serve
 
 
 
