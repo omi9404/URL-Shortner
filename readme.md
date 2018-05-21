@@ -1,4 +1,4 @@
-# Codaemon Softwares URL Shortener Test By Omprakash Lilhare
+#URL Shortener By Omprakash Lilhare
 
 Requires PHP ≥ 5.6.0 or higher.
 
